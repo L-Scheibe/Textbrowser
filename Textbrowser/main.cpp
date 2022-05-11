@@ -1,0 +1,15 @@
+#include "gui.h"
+#include <QApplication>
+#include "httpclient.h"
+#include <QCoreApplication>
+
+
+int main(int argc, char *argv[])
+{
+    QApplication a(argc, argv);
+    Gui w;
+    w.show();
+
+    return a.exec();
+}
+
